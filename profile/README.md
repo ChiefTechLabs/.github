@@ -1,197 +1,92 @@
 <div align="center">
-
-<!-- HERO: ANIMATED TITLE -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=ChiefTechLabs">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&duration=3000&pause=1000&color=0891B2&center=true&vCenter=true&width=800&lines=ChiefTechLabs">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=ChiefTechLabs" alt="ChiefTechLabs" />
-</picture>
-
-<br/>
-
-<!-- DIVIDER -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,100:0a0e17&height=2&section=header">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,100:0a0e17&height=2&section=header" />
-</picture>
-
-<br/>
-
-<h3>
-  Robotics &amp; Automation &nbsp;·&nbsp; From Silicon to Motion
-</h3>
-<h4>
-  机器人 &amp; 自动化 &nbsp;·&nbsp; 从芯片到运动
-</h4>
-
-<br/>
-
-[![Visitors](https://komarev.com/ghpvc/?username=ChiefTechLabs&label=VISITORS&style=for-the-badge&color=0891B2)](https://github.com/ChiefTechLabs)
-
-<br/>
-<br/>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" />
+    <img src="assets/banner-dark.svg" alt="ChiefTechLabs — Full-stack Robotics R&D" width="100%" />
+  </picture>
 </div>
+
+<br />
+
+<div align="center">
+  <strong>Full-stack robotics R&amp;D — from bare-metal drivers to autonomous systems.</strong><br />
+  <sub>机器人全栈研发 —— 从底层硬件接口到上层自主系统。</sub>
+</div>
+
+<br />
+
+---
+
+## Tech Stack / 技术栈
+
+<sub>Extracted from production code across our repositories. 以下技术栈提取自各仓库的实际生产代码。</sub>
+
+| Domain | Technologies |
+| --- | --- |
+| **Languages** | ![C++23](https://img.shields.io/badge/C%2B%2B_23-16222e?style=flat-square&logo=cplusplus&logoColor=22d3ee) ![C](https://img.shields.io/badge/C-16222e?style=flat-square&logo=c&logoColor=22d3ee) ![Python](https://img.shields.io/badge/Python_3.10%2B-16222e?style=flat-square&logo=python&logoColor=22d3ee) ![TypeScript](https://img.shields.io/badge/TypeScript-16222e?style=flat-square&logo=typescript&logoColor=22d3ee) ![Shell](https://img.shields.io/badge/Shell-16222e?style=flat-square&logo=gnubash&logoColor=22d3ee) |
+| **Robot Middleware** | ![ROS 2 Humble](https://img.shields.io/badge/ROS_2_Humble-16222e?style=flat-square&logo=ros&logoColor=22d3ee) ![ros2_control](https://img.shields.io/badge/ros2__control-16222e?style=flat-square) ![MoveIt 2](https://img.shields.io/badge/MoveIt_2-16222e?style=flat-square) ![Nav2](https://img.shields.io/badge/Nav2-16222e?style=flat-square) ![Gazebo](https://img.shields.io/badge/Gazebo-16222e?style=flat-square) |
+| **Perception & Navigation** | ![OpenCV](https://img.shields.io/badge/OpenCV-16222e?style=flat-square&logo=opencv&logoColor=22d3ee) ![Intel RealSense](https://img.shields.io/badge/Intel_RealSense-16222e?style=flat-square) ![LiDAR SLAM](https://img.shields.io/badge/LiDAR_SLAM-16222e?style=flat-square) ![LIO · ESKF](https://img.shields.io/badge/LIO_%C2%B7_ESKF-16222e?style=flat-square) |
+| **Embedded & Hardware** | ![ESP32-C3](https://img.shields.io/badge/ESP32--C3-16222e?style=flat-square&logo=espressif&logoColor=22d3ee) ![STM32](https://img.shields.io/badge/STM32-16222e?style=flat-square&logo=stmicroelectronics&logoColor=22d3ee) ![CAN bus](https://img.shields.io/badge/CAN_bus-16222e?style=flat-square) ![Modbus RTU](https://img.shields.io/badge/Modbus_RTU-16222e?style=flat-square) |
+| **Backend & AI** | ![FastAPI](https://img.shields.io/badge/FastAPI-16222e?style=flat-square&logo=fastapi&logoColor=22d3ee) ![SQLAlchemy 2.0](https://img.shields.io/badge/SQLAlchemy_2.0-16222e?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-16222e?style=flat-square&logo=langchain&logoColor=22d3ee) ![LangGraph](https://img.shields.io/badge/LangGraph-16222e?style=flat-square&logo=langgraph&logoColor=22d3ee) ![Playwright](https://img.shields.io/badge/Playwright-16222e?style=flat-square) |
+| **Frontend** | ![React 19](https://img.shields.io/badge/React_19-16222e?style=flat-square&logo=react&logoColor=22d3ee) ![Vite](https://img.shields.io/badge/Vite-16222e?style=flat-square&logo=vite&logoColor=22d3ee) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-16222e?style=flat-square&logo=tailwindcss&logoColor=22d3ee) ![shadcn/ui](https://img.shields.io/badge/shadcn--ui-16222e?style=flat-square&logo=shadcnui&logoColor=22d3ee) ![Radix UI](https://img.shields.io/badge/Radix_UI-16222e?style=flat-square&logo=radixui&logoColor=22d3ee) |
+| **Engineering & DevOps** | ![Docker](https://img.shields.io/badge/Docker-16222e?style=flat-square&logo=docker&logoColor=22d3ee) ![CMake](https://img.shields.io/badge/CMake-16222e?style=flat-square&logo=cmake&logoColor=22d3ee) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-16222e?style=flat-square&logo=githubactions&logoColor=22d3ee) ![Dev Containers](https://img.shields.io/badge/Dev_Containers-16222e?style=flat-square) ![Clang Toolchain](https://img.shields.io/badge/Clang_Toolchain-16222e?style=flat-square&logo=llvm&logoColor=22d3ee) ![Ruff · Black](https://img.shields.io/badge/Ruff_%C2%B7_Black-16222e?style=flat-square) |
+
+<br />
+
+---
+
+## Projects / 项目
+
+### Robotics Core · 机器人核心
+
+<sub>Hardware-near software: drivers, firmware, and the ROS 2 workspace that ties them together. 贴近硬件的一层：驱动、固件，以及把它们组织起来的 ROS 2 工作空间。</sub>
+
+| Repository | Description |
+| --- | --- |
+| [`omrobot`](https://github.com/ChiefTechLabs/omrobot) | ROS 2 Humble workspace for OMRobot — mobile platform with robotic arm, omnidirectional chassis, and LiDAR SLAM navigation |
+| [`dais_motor`](https://github.com/ChiefTechLabs/dais_motor) | Pure C++ Modbus RTU driver for the D-AIS48025A-R servo drive — zero ROS dependency |
+| [`realman_arm`](https://github.com/ChiefTechLabs/realman_arm) | Pure C++ wrapper for the RealMan RM_API2 SDK — arm motion, gripper, and state monitoring |
+| [`m65_chassis`](https://github.com/ChiefTechLabs/m65_chassis) | Pure C++ serial driver for the M65 omnidirectional chassis — zero ROS dependency |
+| [`photogate`](https://github.com/ChiefTechLabs/photogate) | ESP32-C3 photogate sensor — firmware, C++ driver, and ros2_control plugin for OMRobot |
+
+### AI & Automation · AI 与自动化
+
+<sub>GenAI-powered pipelines that plan, generate, and ship content autonomously. 由 GenAI 驱动的自动化流水线。</sub>
+
+| Repository | Description |
+| --- | --- |
+| [`geo`](https://github.com/ChiefTechLabs/geo) | GEO automation platform — GenAI-powered content pipeline for generative engine optimization: plan, generate, optimize, review, publish |
+
+### Developer Tools · 开发工具
+
+<sub>Agent skills and CLI tooling that make our daily workflow faster. 提升日常研发效率的 Agent 技能与命令行工具。</sub>
+
+| Repository | Description |
+| --- | --- |
+| [`lark-skills`](https://github.com/ChiefTechLabs/lark-skills) | AI agent skills for lark-cli — natural-language control of Lark/Feishu: IM, docs, sheets, calendar, wiki, approval, and more |
+| [`weekly-report`](https://github.com/ChiefTechLabs/weekly-report) | OpenCode skill — auto-generate structured weekly reports from OpenCode session history across projects |
+| [`printer`](https://github.com/ChiefTechLabs/printer) | OpenCode skill — print documents, photos, and web pages via CUPS/IPP with automatic printer discovery |
+
+<br />
+
+---
+
+## Join Us / 加入我们
+
+<div align="center">
+  <p>
+    We hire engineers who are fluent at every layer — from registers to route planning.<br />
+    <sub>我们在寻找打通每一层的工程师 —— 既读得懂寄存器，也调得好路径规划。</sub>
+  </p>
+  <a href="mailto:lorenzo@ugenrobot.com">
+    <img src="https://img.shields.io/badge/We_are_hiring-lorenzo%40ugenrobot.com-0e7490?style=flat-square" alt="We are hiring — lorenzo@ugenrobot.com" />
+  </a>
+</div>
+
+<br />
 
 ---
 
 <div align="center">
-
-## About Us · 关于我们
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### We are ChiefTechLabs
-
-A robotics R&amp;D team building the full stack behind intelligent machines — from **low-level hardware interfaces** (servo drives, motor controllers, sensors) to **middleware** (ROS2, real-time communication) to **high-level autonomy** (perception, planning, control). We ship libraries, drivers, and systems that make robots move.
-
-</td>
-<td width="50%">
-
-### 我们是 ChiefTechLabs
-
-一支机器人研发团队，构建智能机器背后的全栈技术 —— 从**底层硬件接口**（伺服驱动、电机控制、传感器）到**中间件**（ROS2、实时通信）再到**上层自主系统**（感知、规划、控制）。我们交付让机器人动起来的库、驱动和系统。
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-<div align="center">
-
-## Tech Radar · 技术栈
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### Core
-
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=fff&labelColor=1e293b)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff&labelColor=1e293b)
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=fff&labelColor=1e293b)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=fff&labelColor=1e293b)
-
-### Hardware &amp; Embedded
-
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=fff&labelColor=1e293b)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=fff&labelColor=1e293b)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=fff&labelColor=1e293b)
-![CAN bus](https://img.shields.io/badge/CAN_Bus-FF6600?style=for-the-badge&logo=canonical&logoColor=fff&labelColor=1e293b)
-
-### Simulation &amp; Tools
-
-![Gazebo](https://img.shields.io/badge/Gazebo-9B4F2E?style=for-the-badge&logo=ros&logoColor=fff&labelColor=1e293b)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff&labelColor=1e293b)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000&labelColor=1e293b)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=fff&labelColor=1e293b)
-
-</div>
-
-<br/>
-
----
-
-<div align="center">
-
-## Public Projects · 开源项目
-
-</div>
-
-<br/>
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### dais_motor
-
-ROS2 hardware interface for<br/>D-AIS48025A servo drive
-
-[![View](https://img.shields.io/badge/View-1e293b?style=flat-square&logo=github)](https://github.com/ChiefTechLabs/dais_motor)
-
-</td>
-<td width="33%" align="center">
-
-### m65_chassis
-
-M65 chassis communication<br/>library for RealMan robots
-
-[![View](https://img.shields.io/badge/View-1e293b?style=flat-square&logo=github)](https://github.com/ChiefTechLabs/m65_chassis)
-
-</td>
-<td width="33%" align="center">
-
-### photogate
-
-Photogate sensor interface &amp;<br/>data acquisition
-
-[![View](https://img.shields.io/badge/View-1e293b?style=flat-square&logo=github)](https://github.com/ChiefTechLabs/photogate)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-<div align="center">
-
-## We're Hiring · 加入我们
-
-</div>
-
-<br/>
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### Open Positions
-
-We are always looking for engineers passionate about **robotics**, **embedded systems**, and **real-time software**.
-
-我们长期招募对**机器人**、**嵌入式系统**和**实时软件**有热情的工程师。
-
-</td>
-<td align="center" width="50%">
-
-### Get in Touch
-
-**[lorenzo@ugenrobot.com](mailto:lorenzo@ugenrobot.com)**
-
-Send us your resume or GitHub profile.
-
-发送你的简历或 GitHub 主页给我们。
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-<div align="center">
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,100:0ea5e9&height=100&section=footer&fontSize=0">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,100:0ea5e9&height=100&section=footer&fontSize=0">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,100:0ea5e9&height=100&section=footer&fontSize=0" />
-</picture>
-
-<sub>© 2026 ChiefTechLabs · Built by engineers, for robots</sub>
-
+  <sub><strong>ChiefTechLabs</strong> · Full-stack robotics R&amp;D · <a href="https://github.com/ChiefTechLabs">github.com/ChiefTechLabs</a></sub>
 </div>

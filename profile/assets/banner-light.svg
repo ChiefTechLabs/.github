@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="ChiefTechLabs — Full-stack robotics R&amp;D">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#dde4ec" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e8fa8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0e8fa8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0e7490" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0e7490" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="#f6f8fa"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.7"/>
+  <circle cx="1000" cy="160" r="230" fill="url(#glow)"/>
+
+  <!-- corner ticks -->
+  <g stroke="#b8c4d2" stroke-width="1.5" fill="none">
+    <path d="M16 34V16h18"/>
+    <path d="M1184 34V16h-18"/>
+    <path d="M16 286v18h18"/>
+    <path d="M1184 286v18h-18"/>
+  </g>
+
+  <!-- bottom hairline -->
+  <rect x="0" y="319" width="1200" height="1" fill="#d7dee7"/>
+  <rect x="0" y="319" width="420" height="1" fill="url(#rule)"/>
+
+  <!-- right motif: rings + hexagon node -->
+  <g fill="none">
+    <circle cx="1000" cy="160" r="130" stroke="#0e7490" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3 9">
+      <animateTransform attributeName="transform" type="rotate" from="0 1000 160" to="360 1000 160" dur="44s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="160" r="97" stroke="#0e7490" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="46 16">
+      <animateTransform attributeName="transform" type="rotate" from="360 1000 160" to="0 1000 160" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M1000 96l55.4 32v64L1000 224l-55.4-32v-64z" stroke="#0e7490" stroke-opacity="0.6" stroke-width="1.4"/>
+    <path d="M1000 118l36.5 21v42L1000 202l-36.5-21v-42z" stroke="#0e7490" stroke-opacity="0.35" stroke-width="1"/>
+  </g>
+  <g fill="#f6f8fa" stroke="#0e7490" stroke-width="1.4">
+    <circle cx="1000" cy="96" r="3"/>
+    <circle cx="1055.4" cy="128" r="3"/>
+    <circle cx="1055.4" cy="192" r="3"/>
+    <circle cx="1000" cy="224" r="3"/>
+    <circle cx="944.6" cy="192" r="3"/>
+    <circle cx="944.6" cy="128" r="3"/>
+  </g>
+  <circle cx="1000" cy="160" r="5" fill="#0e8fa8">
+    <animate attributeName="r" values="5;6.5;5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="160" r="10" fill="none" stroke="#0e8fa8" stroke-opacity="0.6" stroke-width="1">
+    <animate attributeName="r" values="8;20" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.6;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- traces with travelling pulses -->
+  <g fill="none" stroke="#c3cfdb" stroke-width="1.5">
+    <path d="M706 128h236"/>
+    <path d="M706 192h236"/>
+    <path d="M748 256h170l40-32"/>
+  </g>
+  <g fill="#f6f8fa" stroke="#c3cfdb" stroke-width="1.5">
+    <rect x="698" y="124" width="8" height="8"/>
+    <rect x="698" y="188" width="8" height="8"/>
+    <rect x="740" y="252" width="8" height="8"/>
+  </g>
+  <circle r="3" fill="#0e8fa8">
+    <animateMotion dur="4.2s" repeatCount="indefinite" path="M706 128h236"/>
+  </circle>
+  <circle r="3" fill="#0e8fa8" opacity="0.85">
+    <animateMotion dur="5.6s" repeatCount="indefinite" path="M706 192h236"/>
+  </circle>
+  <circle r="2.5" fill="#0e7490" opacity="0.7">
+    <animateMotion dur="6.4s" repeatCount="indefinite" path="M748 256h170l40-32"/>
+  </circle>
+
+  <!-- text block -->
+  <text x="88" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="6" fill="#0e7490">FULL-STACK ROBOTICS R&amp;D</text>
+  <text x="84" y="172" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-0.5" fill="#10161f">ChiefTechLabs</text>
+  <rect x="88" y="196" width="300" height="2" fill="url(#rule)"/>
+  <text x="88" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#45536a">From bare-metal drivers to autonomous systems.</text>
+  <text x="88" y="260" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" font-size="14" fill="#6b7889">机器人全栈研发 —— 从底层硬件接口到上层自主系统</text>
+
+  <!-- status line -->
+  <circle cx="92" cy="291" r="4" fill="#0ca678">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="108" y="295" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#7d8a9c">SYSTEMS ONLINE</text>
+
+  <!-- small cross marks -->
+  <g stroke="#b8c4d2" stroke-width="1.5">
+    <path d="M1140 52v16M1132 60h16"/>
+    <path d="M668 52v12M662 58h12"/>
+  </g>
+</svg>
